@@ -30,7 +30,7 @@
 (deftheme smart-mode-line-sweet
   "Sweet theme for smart-mode-line.")
 
-(custom-theme-set-faces 'smart-mode-line-sweet-theme
+(custom-theme-set-faces 'smart-mode-line-sweet
                         '(mode-line-inactive ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
                         '(mode-line          ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
                         '(sml/global         ((t :inherit font-lock-preprocessor-face)))
