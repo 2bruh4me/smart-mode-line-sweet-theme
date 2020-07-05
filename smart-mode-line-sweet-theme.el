@@ -31,8 +31,8 @@
   "Sweet theme for smart-mode-line.")
 
 (custom-theme-set-faces 'smart-mode-line-sweet
-                        '(mode-line-inactive ((t :background "#292235" :box (:line-width 3 :color "#292235"))))
-                        '(mode-line          ((t :background "#292235" :box (:line-width 3 :color "#292235"))))
+                        '(mode-line-inactive ((t :background "#2d2d46" :box (:line-width 3 :color "#2d2d46"))))
+                        '(mode-line          ((t :background "#2d2d46" :box (:line-width 3 :color "#2d2d46"))))
                         '(sml/global         ((t :inherit font-lock-preprocessor-face)))
                         '(sml/filename       ((t :inherit mode-line-buffer-id)))
                         '(sml/prefix         ((t :inherit (font-lock-variable-name-face sml/global))))
