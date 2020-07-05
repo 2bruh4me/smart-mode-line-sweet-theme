@@ -2,8 +2,11 @@
 
 ;; Copyright (C) 2020  weebojensen
 
-;; Author: weebojensen <weebojensen@wj01>
+;; Author: 2bruh4me
 ;; Keywords: faces
+;; Version: 1
+;; URL: https://github.com/2bruh4me/smart-mode-line-sweet-theme
+;; Package-Requires: ((emacs "24.1"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
