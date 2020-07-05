@@ -30,14 +30,14 @@
 (deftheme smart-mode-line-sweet
   "Sweet theme for smart-mode-line.")
 
-(custom-set-faces 'smart-mode-line-sweet-theme
-                  '(mode-line-inactive ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
-                  '(mode-line          ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
-                  '(sml/global         ((t :inherit font-lock-preprocessor-face)))
-                  '(sml/filename       ((t :inherit mode-line-buffer-id)))
-                  '(sml/prefix         ((t :inherit (font-lock-variable-name-face sml/global))))
-                  '(sml/read-only      ((t :inherit (font-lock-type-face sml/not-modified))))
-                  '(sml/modes          ((t :foreground nil :inherit sml/filename :weight normal))))
+(custom-theme-set-faces 'smart-mode-line-sweet-theme
+                        '(mode-line-inactive ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
+                        '(mode-line          ((t :background "#222235" :box (:line-width 3 :color "#222235"))))
+                        '(sml/global         ((t :inherit font-lock-preprocessor-face)))
+                        '(sml/filename       ((t :inherit mode-line-buffer-id)))
+                        '(sml/prefix         ((t :inherit (font-lock-variable-name-face sml/global))))
+                        '(sml/read-only      ((t :inherit (font-lock-type-face sml/not-modified))))
+                        '(sml/modes          ((t :foreground nil :inherit sml/filename :weight normal))))
 
 ;;;###autoload
 (when load-file-name
